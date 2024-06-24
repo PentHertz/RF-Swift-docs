@@ -49,8 +49,8 @@ The RF Swift project
 
 RF Swift includes different components to make RF hobbists, students/learners, professionnals, RF hackers, bug hunters' life easy.
 
-* :doc:`Go wrapper </the-rfswift-project/go-wrapper>`: instruments containers and hosts to simplify the use of tools that may require internet connectivity, display, sounds, USB accesses. This `rfswift` is the main program you will interact with to run clean containers, execute inside running or paused containers, and do many magic actions that will make things work without headache.
-* :doc:`Docker images </the-rfswift-project/docker-images>`: some pre-built Docker container images are available in RF Swift's repository. In case you wan to bake your own environment, preserve some spaces, and have a special set-up, you will also find some Docker files you can edit to fit your expectations.
+* Go wrapper: instruments containers and hosts to simplify the use of tools that may require internet connectivity, display, sounds, USB accesses. This `rfswift` is the main program you will interact with to run clean containers, execute inside running or paused containers, and do many magic actions that will make things work without headache.
+* Docker images: some pre-built Docker container images are available in RF Swift's repository. In case you wan to bake your own environment, preserve some spaces, and have a special set-up, you will also find some Docker files you can edit to fit your expectations.
 
 
 How to begin?

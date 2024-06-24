@@ -96,3 +96,22 @@ To run a specific command when starting a new container, you can use ``-e`` argu
 .. code-block:: bash
 
 	rfswift run -i penthertz/rfswift:sdr_full -e sdrpp
+
+
+
+Getting the sound
+''''''''''''''''''
+
+Some applications may require ``pulseaudio`` to be running. 
+To avoid any specific configuration for each plateform (Windows, macOS, Linux), we recommended to use ``pulseaudio`` in TCP with a defined port.
+
+After we can use the ``PULSE_SERVER`` environment variable to tell to our program we are launching such as ``gqrx`` for example:
+
+
+.. code-block:: bash
+
+	PULSE_SERVER=tcp:<host IP address>:34567 gqrx
+
+.. tip::
+
+	This step is manual but will be automated in next version of the ``rfswift`` tool.
