@@ -63,3 +63,21 @@ rfid
    :file: tools_for_rfid.csv
    :header-rows: 1
    :class: longtable
+
+
+automotive
+---------
+
+.. csv-table:: Installed tools for automotive tag
+   :file: tools_for_automotive.csv
+   :header-rows: 1
+   :class: longtable
+
+
+reversing
+---------
+
+.. csv-table:: Installed tools for reversing tag
+   :file: tools_for_reversing.csv
+   :header-rows: 1
+   :class: longtable
