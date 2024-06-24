@@ -72,6 +72,7 @@ You feel inspired and want to share you cakes, or you have an issues to report o
    getting-started/install.rst
    getting-started/prebuiltcontainer.rst
    getting-started/running_image.rst
+   getting-started/tools_per_tag.rst
 
 
 .. toctree::
