@@ -44,7 +44,7 @@ The minimum requirements to run the project are the following:
 
 		*  `Docker Desktop <https://docs.docker.com/desktop/install/windows-install/>`__ to run container
 		* `usbipd <https://learn.microsoft.com/en-us/windows/wsl/connect-usb>`__ to bind USB devices to the host
-		* For programs using PulseAudio: `pulseaudio <https://www.linuxuprising.com/2021/03/how-to-get-sound-pulseaudio-to-work-on.html>`_ (follow *Setting Up PulseAudio on Windows* instructions)
+		* For programs using PulseAudio, follow steps in the following `pulseaudio page <https://www.linuxuprising.com/2021/03/how-to-get-sound-pulseaudio-to-work-on.html>`_ using `new binaries here <https://pgaskin.net/pulseaudio-win32/>`_.
 
 
 		.. warning::
