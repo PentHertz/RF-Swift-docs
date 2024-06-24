@@ -1,4 +1,4 @@
-Tool(s),am64 ,aarch64
+Tool(s),amd64 ,aarch64
 UHD tools and libs (need to enable/disable options),✅  ,✅
 RTL-tools and libs (need to enable/disable options),✅  ,✅  
 GNU Radio,✅  ,✅  
