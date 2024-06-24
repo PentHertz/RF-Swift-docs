@@ -52,6 +52,16 @@ The minimum requirements to run the project are the following:
 			Make sure Docker Desktop runs in `WSL2 <https://docs.docker.com/desktop/wsl/#enabling-docker-support-in-wsl-2-distros>`__.
 
 
+To begin the installation, you will have to clone the following Git project:
+
+.. code-block:: bash
+
+	git clone https://github.com/PentHertz/RF-Swift.git
+
+
+Or you can also use one of our `precompiled binaries <https://github.com/PentHertz/RF-Swift/tags>`_ directly.
+
+
 If you want to compile the project, Golang will be also a requirement, but using the provided installation script in the root directory:
 
 ..  tabs::
@@ -86,3 +96,9 @@ If you want to compile the project, Golang will be also a requirement, but using
 .. warning::
 
 	When the installation script asks for a name to build an image (e.g: ``Enter image tag value``) you can skip it to use prebuilt Docker images to avoid long compilation time, and use ``pull`` command using ``rfswift``.
+
+
+Skip Go wrapper building
+-------------------------
+
+To even avoid building the ``rfswift`` wrapper, you can use one of our precompiled binaries `available here <https://github.com/PentHertz/RF-Swift/tags>`_ (take the latest release).
