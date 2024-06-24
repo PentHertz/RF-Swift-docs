@@ -57,3 +57,5 @@ And if you need it for an aarch64 platform:
 If you prefer to build your own images, check :ref:`Linux<own_image>` page.
 
 To run containers, you can go to the :ref:`next<running_container>` page.
+
+To get the list of tools per tag, you can read the associated page :ref:`included tools <tools_per_tag>`.
