@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Using a prebuilt container &mdash; RF Swift v0.3 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=a5c4661c" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=a74d790d"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Running a container" href="running_image.html" />
+    <link rel="prev" title="Installing RF Swift" href="install.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            RF Swift
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Quick start</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installing RF Swift</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Using a prebuilt container</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running_image.html">Running a container</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">From source install</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="own_image.html">Building your own image</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">RF Swift</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Using a prebuilt container</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/getting-started/prebuiltcontainer.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="using-a-prebuilt-container">
+<span id="prebuiltcontainer"></span><h1>Using a prebuilt container<a class="headerlink" href="#using-a-prebuilt-container" title="Link to this heading"></a></h1>
+<p>Our prebuilt container are available on the Penthertz official registry (<code class="docutils literal notranslate"><span class="pre">penthertz/rfswift</span></code>). Each prebuilt is different by the number of installed tools, can be a light, or full version, or a version only for Wi-Fi, Bluetooth, RFID, or any other hardware attacks.</p>
+<p>Here is a list of tag you can find:</p>
+<table class="longtable docutils align-default" id="id1">
+<caption><span class="caption-text">Prebuilt images</span><a class="headerlink" href="#id1" title="Link to this table"></a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Tag</p></th>
+<th class="head"><p>Supported OS</p></th>
+<th class="head"><p>architecture</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>corebuild</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>amd64</p></td>
+<td><p>Base image including prerequisites for compiling tools + common SDR devices without tweaks</p></td>
+</tr>
+<tr class="row-odd"><td><p>latest</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>amd64</p></td>
+<td><p>The full images including all tools for SDR, Wi-Fi, Bluetooth and RFID used in the Dockerfile file</p></td>
+</tr>
+<tr class="row-even"><td><p>sdr_light</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>amd64</p></td>
+<td><p>Light image built for SDR uses with limited number of tools used in sdr_light.docker file</p></td>
+</tr>
+<tr class="row-odd"><td><p>sdr_full</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>amd64</p></td>
+<td><p>Full image including all SDR tools used in sdr_full.docker file</p></td>
+</tr>
+<tr class="row-even"><td><p>wifi</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>amd64</p></td>
+<td><p>Wi-Fi image for security tests using tools included in wifi.docker</p></td>
+</tr>
+<tr class="row-odd"><td><p>rfid</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>amd64</p></td>
+<td><p>RFID image for security tests using tools included in rfid.docker</p></td>
+</tr>
+<tr class="row-even"><td><p>bluetooth</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>amd64</p></td>
+<td><p>Bluetooth classic and LE image for security tests using tools in bluetooth.docker</p></td>
+</tr>
+<tr class="row-odd"><td><p>rfid_aarch64</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>arm64/v8</p></td>
+<td><p>RFID image for security tests using tools included in rfid.docker</p></td>
+</tr>
+<tr class="row-even"><td><p>sdr_light_aarch64</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>arm64/v8</p></td>
+<td><p>Light image built for SDR uses with limited number of tools used in sdr_light.docker file</p></td>
+</tr>
+<tr class="row-odd"><td><p>latest_aarch64</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>arm64/v8</p></td>
+<td><p>The full images including all tools for SDR, Wi-Fi, Bluetooth and RFID used in the Dockerfile file but two tools are missing. Can be used in Apple M1-M3.</p></td>
+</tr>
+<tr class="row-even"><td><p>sdr_full_aarch64</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>arm64/v8</p></td>
+<td><p>Full image including all SDR tools used in sdr_full.docker file but with two missing tools. Also works in Apple M1-M3.</p></td>
+</tr>
+<tr class="row-odd"><td><p>bluetooth_aarch64</p></td>
+<td><ul class="simple">
+<li><p>Linux - Windows</p></li>
+</ul>
+</td>
+<td><p>arm64/v8</p></td>
+<td><p>Bluetooth classic and LE image for security tests using tools in bluetooth.docker</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It can be rare, but some tools may only be available for a specific architecture.</p>
+</div>
+<p>You can pull one or more Docker images with the following command line:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rfswift<span class="w"> </span>pull<span class="w"> </span>penthertz/rfswift:&lt;prebuilt<span class="w"> </span>container<span class="w"> </span>tag&gt;
+</pre></div>
+</div>
+<p>For example, if you want to pull the full images containing all the tools, you can pull the <code class="docutils literal notranslate"><span class="pre">latest</span></code> tag as follows:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rfswift<span class="w"> </span>pull<span class="w"> </span>penthertz/rfswift:latest
+</pre></div>
+</div>
+<p>If you want just something specific to SDR and full:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rfswift<span class="w"> </span>pull<span class="w"> </span>penthertz/rfswift:sdr_full
+</pre></div>
+</div>
+<p>Or something specific to Wi-Fi:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rfswift<span class="w"> </span>pull<span class="w"> </span>penthertz/rfswift:wifi
+</pre></div>
+</div>
+<p>And if you need it for an aarch64 platform:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rfswift<span class="w"> </span>pull<span class="w"> </span>penthertz/rfswift:wifi_aarch64
+</pre></div>
+</div>
+<p>If you prefer to build your own images, check <a class="reference internal" href="own_image.html#own-image"><span class="std std-ref">Linux</span></a> page.</p>
+<p>To run containers, you can go to the <a class="reference internal" href="running_image.html#running-container"><span class="std std-ref">next</span></a> page.</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="install.html" class="btn btn-neutral float-left" title="Installing RF Swift" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="running_image.html" class="btn btn-neutral float-right" title="Running a container" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, FlUxIuS.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

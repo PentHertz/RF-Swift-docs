@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RF Swift: the epic setup for RF HAMS and professionnals &mdash; RF Swift v0.3 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/tabs.css?v=a5c4661c" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=a74d790d"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installing RF Swift" href="getting-started/install.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            RF Swift
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Quick start</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="getting-started/install.html">Installing RF Swift</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started/prebuiltcontainer.html">Using a prebuilt container</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting-started/running_image.html">Running a container</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">From source install</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="getting-started/own_image.html">Building your own image</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">RF Swift</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">RF Swift: the epic setup for RF HAMS and professionnals</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="rf-swift-the-epic-setup-for-rf-hams-and-professionnals">
+<h1>RF Swift: the epic setup for RF HAMS and professionnals<a class="headerlink" href="#rf-swift-the-epic-setup-for-rf-hams-and-professionnals" title="Link to this heading"></a></h1>
+<div align="center">
+  <img alt="RF Swift logo" width="600" src="link here">
+  <br><br>
+  <img alt="linux supported" src="https://img.shields.io/badge/linux-supported-success">
+  <img alt="windows supported" src="https://img.shields.io/badge/windows-supported-success">
+  <br>
+  <img alt="amd64" src="https://img.shields.io/badge/amd64%20(x86__64)-supported-success">
+  <img alt="arm64" src="https://img.shields.io/badge/arm64%20(aarch64)-supported-success">
+  <br><br>
+  <a target="_blank" rel="noopener noreferrer" href="https://x.com/intent/follow?screen_name=FlUxIuS" title="Follow"><img src="https://img.shields.io/twitter/follow/_nwodtuhs?label=FlUxIuS&style=social" alt="Twitter FlUxIuS"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://x.com/intent/follow?screen_name=Penthertz" title="Follow"><img src="https://img.shields.io/twitter/follow/_nwodtuhs?label=Penthertz&style=social" alt="Twitter Dramelac"></a>
+  <br><br>
+  <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/4FbMfZEz" title="Join us on Discord"><img src="/.assets/discord_join_us.png" width="150" alt="Join us on Discord"></a>
+  <br><br>
+</div><div class="toctree-wrapper compound">
+</div>
+<p>RF Swift is a toolbox for creating an environment laboratory for your RF assessments, that can easily fit your prerequirements.</p>
+<p>This toolbox is probably the best solution to deploy a generic, as well as a special environment securely, skipping the headache and waste of time when installing and using RF tools on same host.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This documentation is in working progress, and may be a little uncomplet for the moment, or not displayed correctly. Feel free to share your experience if you want to contribute to it!</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Even if the project, could work on macOS with some manual workaround, we do not adverstise it for the moment, but this system will be a 100% supported anytime soon.</p>
+</div>
+<section id="the-rf-swift-project">
+<h2>The RF Swift project<a class="headerlink" href="#the-rf-swift-project" title="Link to this heading"></a></h2>
+<p>RF Swift includes different components to make RF hobbists, students/learners, professionnals, RF hackers, bug hunters’ life easy.</p>
+<ul class="simple">
+<li><p><span class="xref std std-doc">Go wrapper</span>: instruments containers and hosts to simplify the use of tools that may require internet connectivity, display, sounds, USB accesses. This <cite>rfswift</cite> is the main program you will interact with to run clean containers, execute inside running or paused containers, and do many magic actions that will make things work without headache.</p></li>
+<li><p><span class="xref std std-doc">Docker images</span>: some pre-built Docker container images are available in RF Swift’s repository. In case you wan to bake your own environment, preserve some spaces, and have a special set-up, you will also find some Docker files you can edit to fit your expectations.</p></li>
+</ul>
+</section>
+<section id="how-to-begin">
+<h2>How to begin?<a class="headerlink" href="#how-to-begin" title="Link to this heading"></a></h2>
+<p>It is probably the time for you to try, and to make your like easy in this task, you can go through our documentations, and first install RF Swift based on your OS: <a class="reference internal" href="getting-started/install.html#rfswift-install"><span class="std std-ref">Linux</span></a> or <a class="reference internal" href="getting-started/install.html#rfswift-install"><span class="std std-ref">Windows</span></a>.</p>
+</section>
+<section id="community">
+<h2>Community<a class="headerlink" href="#community" title="Link to this heading"></a></h2>
+<p>You feel inspired and want to share you cakes, or you have an issues to report or a patch, feel free to use the RF Swift <a class="reference external" href="https://github.com/PentHertz/RF-Swift/">our repository</a> or <a class="reference external" href="https://discord.gg/4FbMfZEz">RF Swift discord</a>.</p>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="getting-started/install.html" class="btn btn-neutral float-right" title="Installing RF Swift" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, FlUxIuS.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

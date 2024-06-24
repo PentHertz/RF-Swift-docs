@@ -1,0 +1,16 @@
+Tool(s),am64 ,aarch64
+UHD tools and libs (need to enable/disable options),✅  ,✅
+RTL-tools and libs (need to enable/disable options),✅  ,✅  
+GNU Radio,✅  ,✅  
+Common GNU Radio blocks,✅  ,✅  
+Soapy blocks and modules,✅  ,✅  
+SDR++,✅  ,✅  
+retrogram,✅  ,✅  
+Spectran V6 SA GNU Radio blocks,✅  ,✅  
+kc908 SA GNU Radio blocks,✅  ,✅  
+SignalHound SA,✅  ,❌
+Harogic SA,✅  ,✅  
+LeoBodnar GPSDO v1 CLI,✅  ,✅  
+GQRX,✅  ,✅  
+URH,✅  ,✅  
+inspectrum,✅  ,✅  

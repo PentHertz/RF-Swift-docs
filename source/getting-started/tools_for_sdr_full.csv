@@ -1,0 +1,47 @@
+Tool(s),am64 ,aarch64
+OOT – gr-gsm,✅  ,✅
+OOT – gr_lora,✅  ,✅  
+OOT – gr_lorasdr,✅  ,✅  
+OOT – gr_iridium,✅  ,✅  
+OOT – gr_inspector,✅  ,✅  
+OOT – gr_uaslink,✅  ,✅  
+OOT – gr_X10,✅  ,✅  
+OOT – gr_gfdm,✅  ,✅  
+OOT – gr_aaoronia_rtsa,✅  ,✅  
+OOT – gr_ccsds,❌,❌
+OOT – gr_ais,✅  ,✅  
+OOT – gr_dvbs2,✅  ,✅  
+OOT – gr_tempest,✅  ,✅  
+OOT – gr_dab,✅  ,✅  
+OOT – gr_dect2,✅  ,✅  
+OOT – gr_foo,✅  ,✅  
+OOT – gr_ieee802-11,✅  ,✅  
+OOT – gr_ieee802154,✅  ,✅  
+OOT – gr_rds,✅  ,✅  
+OOT – gr_droneid,✅  ,✅  
+OOT – gr_satellites,✅  ,✅  
+OOT – gr_adsb,✅  ,✅  
+OOT – gr_keyfob,✅  ,✅  
+OOT – gr_radar,✅  ,✅  
+OOT – gr_nordic,✅  ,✅  
+OOT – gr_paint,✅  ,✅  
+OOT – gr_pdu_utils,✅  ,✅  
+OOT – gr_sandia_utils,✅  ,✅  
+OOT – gr_timing_utils,✅  ,✅  
+OOT – gr_fhss,✅  ,✅  
+Nvidia OpenCL (to enable),✅  ,❌
+Intel OpenCL (to enable),✅  ,❌
+OOT – gr_fosphor,✅  ,❌
+CyberEther,✅  ,✅  
+SDR Angel,✅  ,✅  
+QSSTV,✅  ,✅  
+Sigdigger,✅  ,✅  (but slow)
+ice_bluetooth,✅  ,❌
+Meshtastic SDR,✅  ,✅  
+gps_sdr_sim,✅  ,✅  
+nfc laboratory,✅  ,✅  
+Jupyter lab + notebook,✅  ,✅  
+Scikit-learn,✅  ,✅  
+pandas,✅  ,✅  
+seaborn,✅  ,✅  
+Tensorflow,✅  ,✅  
