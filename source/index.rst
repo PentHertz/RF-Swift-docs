@@ -83,3 +83,15 @@ You feel inspired and want to share you cakes, or you have an issues to report o
    :caption: From source install
 
    getting-started/own_image.rst
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: RF Swift's commands
+
+   commands/last_containers.rst
+   commands/hot_install.rst
+   commands/commit_change.rst
+   commands/renaming_images.rst
+   commands/removing_containers.rst
