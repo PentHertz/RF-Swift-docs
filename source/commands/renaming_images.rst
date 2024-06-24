@@ -1,7 +1,7 @@
 .. _renaming_images:
 
-Renaming Images
-===============
+rename
+=======
 
 You can rename images using the ``rename`` command as follows:
 

@@ -1,7 +1,7 @@
 .. _removing_containers:
 
-Removing containers
-===================
+remove
+=======
 
 You can remove a container using the ``remove`` command as follows:
 

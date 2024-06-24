@@ -1,7 +1,7 @@
 .. _last_containers:
 
-Displaying last containers
-==========================
+last
+====
 
 To get the last 10 containers you have created, you can use the following command:
 

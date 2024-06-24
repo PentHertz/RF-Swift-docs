@@ -90,6 +90,7 @@ You feel inspired and want to share you cakes, or you have an issues to report o
    :hidden:
    :caption: RF Swift's commands
 
+   commands/run_command.rst
    commands/last_containers.rst
    commands/hot_install.rst
    commands/commit_change.rst

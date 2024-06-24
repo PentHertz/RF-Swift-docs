@@ -1,7 +1,7 @@
 .. _commit_change:
 
-Commit changes
-==============
+commit
+======
 
 When working with a container, sometimes you want also to save changes or results or states.
 
