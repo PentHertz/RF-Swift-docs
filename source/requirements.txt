@@ -1,0 +1,2 @@
+sphinx-tabs
+sphinx-rtd-theme
