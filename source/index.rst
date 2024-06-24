@@ -9,7 +9,7 @@ RF Swift: the epic setup for RF HAMS and professionnals
 .. raw:: html
 
     <div align="center">
-      <img alt="RF Swift logo" width="600" src="link here">
+      <img alt="RF Swift logo" width="600" src="https://github.com/PentHertz/RF-Swift-docs/blob/main/.assets/logo.png?raw=true">
       <br><br>
       <img alt="linux supported" src="https://img.shields.io/badge/linux-supported-success">
       <img alt="windows supported" src="https://img.shields.io/badge/windows-supported-success">
@@ -20,7 +20,7 @@ RF Swift: the epic setup for RF HAMS and professionnals
       <a target="_blank" rel="noopener noreferrer" href="https://x.com/intent/follow?screen_name=FlUxIuS" title="Follow"><img src="https://img.shields.io/twitter/follow/_nwodtuhs?label=FlUxIuS&style=social" alt="Twitter FlUxIuS"></a>
       <a target="_blank" rel="noopener noreferrer" href="https://x.com/intent/follow?screen_name=Penthertz" title="Follow"><img src="https://img.shields.io/twitter/follow/_nwodtuhs?label=Penthertz&style=social" alt="Twitter Dramelac"></a>
       <br><br>
-      <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/4FbMfZEz" title="Join us on Discord"><img src="/.assets/discord_join_us.png" width="150" alt="Join us on Discord"></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/4FbMfZEz" title="Join us on Discord"><img src="https://github.com/PentHertz/RF-Swift-docs/blob/main/.assets/discord_join_us.png?raw=true" width="150" alt="Join us on Discord"></a>
       <br><br>
     </div>
 
