@@ -1,6 +1,6 @@
 .. _exec_command:
 
-run
+exec
 ===
 
 To command ``exec`` has some options:
