@@ -8,6 +8,7 @@ rfid,- Linux - Windows,amd64,RFID image for security tests using tools included 
 reversing,- Linux - Windows,amd64,Reversing image for security tests using tools included in reversing.docker
 automotive,- Linux - Windows,amd64,Automotive image for security tests using tools included in automotive.docker
 bluetooth,- Linux - Windows,amd64,Bluetooth classic and LE image for security tests using tools in bluetooth.docker
+telecom_,- Linux - Windows,amd64,Telecom image for security tests using tools included in telecom.docker
 rfid_aarch64,- Linux - Windows,arm64/v8,RFID image for security tests using tools included in rfid.docker
 sdr_light_aarch64,- Linux - Windows,arm64/v8,Light image built for SDR uses with limited number of tools used in sdr_light.docker file
 latest_aarch64,- Linux - Windows,arm64/v8,"The full images including all tools for SDR, Wi-Fi, Bluetooth and RFID used in the Dockerfile file but two tools are missing. Can be used in Apple M1-M3."
@@ -15,3 +16,4 @@ sdr_full_aarch64,- Linux - Windows,arm64/v8,Full image including all SDR tools u
 bluetooth_aarch64,- Linux - Windows,arm64/v8,Bluetooth classic and LE image for security tests using tools in bluetooth.docker
 reversing_aarch64,- Linux - Windows,arm64/v8,Reversing image for security tests using tools included in reversing.docker
 automotive_aarch64,- Linux - Windows,arm64/v8,Automotive image for security tests using tools included in automotive.docker
+telecom_aarch64,- Linux - Windows,arm64/v8,Telecom image for security tests using tools included in telecom.docker
