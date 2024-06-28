@@ -1,0 +1,8 @@
+Tool(s),am64 ,aarch64
+yatebts,✅  ,✅
+OpenBTS,✅  ,✅  
+OpenBTS UMTS,✅  ,✅  
+"srsRAN 4G, 5G NSA",✅  ,✅  
+srsRAN 5G SA,✅  ,✅  
+pycrate,✅  ,✅  
+Open5GS,✅  ,✅  
