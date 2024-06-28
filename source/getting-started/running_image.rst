@@ -69,7 +69,7 @@ By default, you can directly use the ``run`` command with the tag name of your c
 			Docker Desktop doesn't require administrator privileges.
 
 
-		To attach a USB device, you'll need to install and use `usbipd <https://learn.microsoft.com/en-us/windows/wsl/connect-usb>`_ tool as follows by first listing devices plugged in the computer:
+		To attach a USB device, you can our documented :ref:`winusb<winusb_commands>` to simplify USB device attachment on the container. Or you can also manually use `usbipd <https://learn.microsoft.com/en-us/windows/wsl/connect-usb>`_ tool as follows by first listing devices plugged in the computer:
 
 		.. code-block:: bash
 
@@ -82,14 +82,6 @@ By default, you can directly use the ``run`` command with the tag name of your c
 			usbipd bind --busid <busid>
 			usbipd attach --wsl --busid <busid>
 
-		Demo: 
-
-		.. raw:: html
-
-			<video width="320" height="240" controls>
-		  	<source src="/.assets/331809901-bb2ccd96-b688-4106-8fba-d82f84ff1ea4.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-			</video>
 
 To run a specific command when starting a new container, you can use ``-e`` argument as follows if you want to run the ``sdrpp`` (SDR++) application:
 
@@ -104,14 +96,16 @@ Getting the sound
 
 Some applications may require ``pulseaudio`` to be running. 
 To avoid any specific configuration for each plateform (Windows, macOS, Linux), we recommended to use ``pulseaudio`` in TCP with a defined port.
-
-After we can use the ``PULSE_SERVER`` environment variable to tell to our program we are launching such as ``gqrx`` for example:
-
+This is done by default when running a container, but you experience issue, look on the container if the ``PULSE_SERVER`` environment variable is set as follows:
 
 .. code-block:: bash
 
 	PULSE_SERVER=tcp:<host IP address>:34567 gqrx
 
-.. tip::
+And also look if pulseaudi is well installed in your computer.
 
-	This step is manual but will be automated in next version of the ``rfswift`` tool.
+For Windows users, you will have to `install pulseaudio for Windows and set <https://www.freedesktop.org/wiki/Software/PulseAudio/Ports/Windows/Support/>`_ ``$INSTALL_DIR/etc/pulse/default.pa`` as follows:
+
+.. code-block:: bash
+
+	load-module module-native-protocol-tcp auth-ip-acl=$HOST_IP

@@ -81,3 +81,12 @@ reversing
    :file: tools_for_reversing.csv
    :header-rows: 1
    :class: longtable
+
+telecom
+---------
+
+.. csv-table:: Installed tools for telecom tag
+   :file: tools_for_telecom.csv
+   :header-rows: 1
+   :class: longtable
+

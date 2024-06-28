@@ -3,8 +3,7 @@
 exec
 ===
 
-The command ``exec`` has some options:
-
+To command ``exec`` has some options:
 
 .. code-block:: bash
 	

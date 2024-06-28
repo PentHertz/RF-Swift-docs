@@ -97,3 +97,6 @@ You feel inspired and want to share you cakes, or you have an issues to report o
    commands/commit_change.rst
    commands/renaming_images.rst
    commands/removing_containers.rst
+   commands/delete_command.rst
+   commands/images_command.rst
+   commands/winusb_commands.rst

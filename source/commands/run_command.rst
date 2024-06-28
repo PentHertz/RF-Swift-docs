@@ -3,7 +3,7 @@
 run
 ===
 
-To command ``run`` has some options:
+The command ``run`` has some options:
 
 
 .. code-block:: bash
@@ -14,11 +14,14 @@ To command ``run`` has some options:
 	  rfswift run [flags]
 
 	Flags:
-	  -b, --bind string      extra bindings (separate them with commas)
-	  -e, --command string   command to exec (default: '/bin/bash')
-	  -d, --display string   set X Display (default: 'DISPLAY=:0')
-	  -h, --help             help for run
-	  -i, --image string     image (default: 'myrfswift:latest')
+	  -b, --bind string          extra bindings (separate them with commas)
+	  -e, --command string       command to exec (by default: '/bin/bash')
+	  -d, --display string       set X Display (by default: 'DISPLAY=:0', and separate them with commas)
+	  -x, --extrahosts string    set extra hosts (default: 'pluto.local:192.168.1.2', and separate them with commas)
+	  -h, --help                 help for run
+	  -i, --image string         image (default: 'myrfswift:latest')
+	  -p, --pulseserver string   PULSE SERVER TCP address (by default: tcp:localhost:34567) (default "tcp:localhost:34567")
+
 
 
 Binding a directory
