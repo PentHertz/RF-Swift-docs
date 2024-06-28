@@ -1,7 +1,7 @@
 Tool(s),amd64 ,aarch64
 yatebts,✅  ,✅
 OpenBTS,✅  ,✅  
-OpenBTS UMTS,✅  ,✅  
+OpenBTS UMTS,✅  ,❓ (need to fix ASN part)
 "srsRAN 4G, 5G NSA",✅  ,✅  
 srsRAN 5G SA,✅  ,✅  
 pycrate,✅  ,✅  
