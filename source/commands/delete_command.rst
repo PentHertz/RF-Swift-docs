@@ -18,7 +18,7 @@ The command ``delete`` has some options:
 
 
 
-To remove an image, you can issue the command ``delete`` documented using `-i` argument to precise the image ID or tag.
+To remove an image, you can issue the command ``delete`` documented using ``-i`` argument to precise the image ID or tag.
 
 .. code-block:: bash
 
