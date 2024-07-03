@@ -6,3 +6,4 @@ OpenBTS UMTS,✅  ,❌ (need to fix ASN part)
 srsRAN 5G SA,✅  ,✅  
 pycrate,✅  ,✅  
 Open5GS,✅  ,✅  
+OsmoBTS suite (including OsmoPCU, OsmoSGSN, etc.),✅  ,✅ 
