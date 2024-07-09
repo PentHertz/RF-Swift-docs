@@ -14,6 +14,6 @@ LeoBodnar GPSDO v1 CLI,✅  ,✅
 GQRX,✅  ,✅  
 URH,✅  ,✅  
 inspectrum,✅  ,✅  
-NanoVNASaver,✅  ,✅ 
-NanoVNA-QT,✅  ,✅ 
+NanoVNASaver,✅  ,❌ (fix needed installing PyQT6)
+NanoVNA-QT,✅  ,✅  
 KCSDI,✅  ,❌
