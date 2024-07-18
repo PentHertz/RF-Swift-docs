@@ -90,7 +90,7 @@ telecom
    :header-rows: 1
    :class: longtable
 
-deep temptest (beta)
+deep tempest (beta)
 -------------------
 
 .. csv-table:: Installed tools for deeptempest tag
