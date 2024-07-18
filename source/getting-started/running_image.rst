@@ -96,7 +96,18 @@ Getting the sound
 
 Some applications may require ``pulseaudio`` to be running. 
 To avoid any specific configuration for each plateform (Windows, macOS, Linux), we recommended to use ``pulseaudio`` in TCP with a defined port.
-This is done by default when running a container, but you experience issue, look on the container if the ``PULSE_SERVER`` environment variable is set as follows:
+
+This is done by default when running a container, and allowing accesses on your host with the following command:
+
+.. code-block:: bash
+
+	./rfswift host audio enable # To execute as a simple user!
+
+.. warning::
+
+	This command should be run as a simple user.
+
+But you experience issue, look on the container if the ``PULSE_SERVER`` environment variable is set as follows:
 
 .. code-block:: bash
 
