@@ -1,5 +1,10 @@
 Tool(s),amd64 ,aarch64
+All file from SDR light,,
 bettercap,✅  ,✅
 hcitools,✅  ,✅  
 bluez tools,✅  ,✅  
 mirage,✅  ,✅  
+Sniffle with OpenDroneID encoder/decoder,✅  ,✅  
+Kismet,✅  ,✅
+bluing,✅  ,✅
+bdaddr,✅  ,✅      

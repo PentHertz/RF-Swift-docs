@@ -1,4 +1,5 @@
 Tool(s),amd64 ,aarch64
+All file from SDR light,,
 iproute2,✅  ,✅
 macchanger,✅  ,✅  
 tshart,✅  ,✅  
@@ -10,3 +11,4 @@ Pyrit,✅  ,❓
 eaphammer,✅  ,✅  
 airgeddon,✅  ,✅  
 wifite2,✅  ,✅  
+Kismet,✅  ,✅
