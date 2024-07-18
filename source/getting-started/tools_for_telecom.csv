@@ -1,5 +1,5 @@
 Tool(s),amd64 ,aarch64
-All file from SDR light,,
+All tools from SDR light,,
 yatebts,✅  ,✅
 OpenBTS,✅  ,❌ (need tests with other compiler)
 OpenBTS UMTS,✅  ,❌ (need to fix ASN part)

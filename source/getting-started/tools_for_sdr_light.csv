@@ -1,4 +1,5 @@
 Tool(s),amd64 ,aarch64
+All tools from corebuild,,
 UHD tools and libs (need to enable/disable options),✅  ,✅
 RTL-tools and libs (need to enable/disable options),✅  ,✅  
 GNU Radio,✅  ,✅  
