@@ -126,7 +126,7 @@ Here is an example using Linux:
 
 .. raw:: html
 
-    <a href="https://asciinema.org/a/rR241pLHpiKdW2de97WMqYfzH" target="_blank"><img src="https://asciinema.org/a/rR241pLHpiKdW2de97WMqYfzH.svg" /></a>
+    <script src="https://asciinema.org/a/rR241pLHpiKdW2de97WMqYfzH.js" id="asciicast-rR241pLHpiKdW2de97WMqYfzH" async="true"></script>
 
 
 After building the Go binary is built, we can ``pull`` an existing image, or build one from available Docker files, or also bake one of our own!
