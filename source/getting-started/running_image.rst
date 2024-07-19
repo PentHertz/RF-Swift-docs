@@ -11,16 +11,17 @@ To run a container, use the command ``./rfswift run -h`` to see the needed argum
 
 .. code-block:: bash
 
-	[...]
 	Usage:
 	  rfswift run [flags]
 
 	Flags:
-	  -b, --bind string      extra bindings (separate them with commas)
-	  -e, --command string   command to exec (default: '/bin/bash')
-	  -d, --display string   set X Display (default: 'DISPLAY=:0')
-	  -h, --help             help for run
-	  -i, --image string     image (default: 'myrfswift:latest')
+	  -b, --bind string          extra bindings (separate them with commas)
+	  -e, --command string       command to exec (by default: '/bin/bash')
+	  -d, --display string       set X Display (duplicates hosts's env by default)
+	  -x, --extrahosts string    set extra hosts (default: 'pluto.local:192.168.1.2', and separate them with commas)
+	  -h, --help                 help for run
+	  -i, --image string         image (default: 'myrfswift:latest')
+	  -p, --pulseserver string   PULSE SERVER TCP address (by default: tcp:127.0.0.1:34567) (default "tcp:127.0.0.1:34567")
 
 
 By default, you can directly use the ``run`` command with the tag name of your choice, such as ``penthertz/rfswift:sdr_full`` as follows:
@@ -120,3 +121,9 @@ For Windows users, you will have to `install pulseaudio for Windows and set <htt
 .. code-block:: bash
 
 	load-module module-native-protocol-tcp auth-ip-acl=$HOST_IP
+
+The following demo shows a running containers noticing us about the lack of pulseaudio service, and way to enable it.
+
+.. raw:: html
+
+	<script src="https://asciinema.org/a/WpOCjL4PIAst9m0Pl0KhsVFKe.js" id="asciicast-WpOCjL4PIAst9m0Pl0KhsVFKe" async="true"></script>
