@@ -72,7 +72,7 @@ Example:
 
 .. raw:: html
 
-	<a href="https://asciinema.org/a/cUo633h6Q6ijO6vJfro6Tl1lW" target="_blank"><img src="https://asciinema.org/a/cUo633h6Q6ijO6vJfro6Tl1lW.svg" /></a>
+	<script src="https://asciinema.org/a/cUo633h6Q6ijO6vJfro6Tl1lW.js" id="asciicast-cUo633h6Q6ijO6vJfro6Tl1lW" async="true"></script>
 
 
 If you prefer to build your own images, check :ref:`Linux<own_image>` page.
