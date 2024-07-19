@@ -45,7 +45,7 @@ By default, you can directly use the ``run`` command with the tag name of your c
 
 			.. code-block:: bash
 
-				echo "alias exegol='sudo -E $(which <path of rfswift>)'" >> ~/.bash_aliases 
+				echo "alias rfswift='sudo -E $(which <path of rfswift>)'" >> ~/.bash_aliases 
 				source ~/.bashrc
 
 		.. warning::
