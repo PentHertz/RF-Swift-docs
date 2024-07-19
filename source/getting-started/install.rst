@@ -33,6 +33,11 @@ The minimum requirements to run the project are the following:
 
               curl -fsSL "https://get.docker.com/" | sh
 
+        Other dependencies will be also needed such as:
+
+        * ``xhost`` to install depending on your distribution
+        * ``pulseaudio`` to install depending on your distribution
+
 
     ..  group-tab:: macOS
 
@@ -52,15 +57,38 @@ The minimum requirements to run the project are the following:
 			Make sure Docker Desktop runs in `WSL2 <https://docs.docker.com/desktop/wsl/#enabling-docker-support-in-wsl-2-distros>`__.
 
 
-To begin the installation, you will have to clone the following Git project:
+Then RF Swift can be used directly from the precompiled binary, or compile from source.
+
+
+RF Swift binary
+---------------
+
+
+Option 1. Pre-compiled binary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+You can also use one of our `precompiled binaries <https://github.com/PentHertz/RF-Swift/tags>`_ directly to use RF Swift.
+
+For that, download the latest binary depending on your architectures. 
+
+On Linux you'll have to change the right to make it executable:
+
+.. raw:: html
+
+    <script src="https://asciinema.org/a/wRMJ0m9m1HCsQgGiNBw5TkKwK.js" id="asciicast-wRMJ0m9m1HCsQgGiNBw5TkKwK" async="true"></script>
+
+
+
+
+Option 2. Compiling from source
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To install RF Swift from source, you will have to clone the following Git project:
 
 .. code-block:: bash
 
 	git clone https://github.com/PentHertz/RF-Swift.git
-
-
-Or you can also use one of our `precompiled binaries <https://github.com/PentHertz/RF-Swift/tags>`_ directly.
-
 
 If you want to compile the project, Golang will be also a requirement, but using the provided installation script in the root directory:
 
@@ -93,12 +121,17 @@ If you want to compile the project, Golang will be also a requirement, but using
 			[+] Building RF Switch Go Project
 			...
 
+
+Here is an example using Linux:
+
+.. raw:: html
+
+    <a href="https://asciinema.org/a/rR241pLHpiKdW2de97WMqYfzH" target="_blank"><img src="https://asciinema.org/a/rR241pLHpiKdW2de97WMqYfzH.svg" /></a>
+
+
+After building the Go binary is built, we can ``pull`` an existing image, or build one from available Docker files, or also bake one of our own!
+
+
 .. warning::
 
 	When the installation script asks for a name to build an image (e.g: ``Enter image tag value``) you can skip it to use prebuilt Docker images to avoid long compilation time, and use ``pull`` command using ``rfswift``.
-
-
-Skip Go wrapper building
--------------------------
-
-To even avoid building the ``rfswift`` wrapper, you can use one of our precompiled binaries `available here <https://github.com/PentHertz/RF-Swift/tags>`_ (take the latest release).
