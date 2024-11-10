@@ -3,6 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. warning::
+
+   This documentation is obsolete and is being continued in a new web site: [rfswift.io](https://rfswift.io/) ;)
+
+
 RF Swift: the epic setup for RF HAMS and professionnals
 =======================================================
 
@@ -65,6 +70,9 @@ Community
 
 You feel inspired and want to share you cakes, or you have an issues to report or a patch, feel free to use the RF Swift `our repository <https://github.com/PentHertz/RF-Swift/>`_ or `RF Swift discord <https://discord.gg/4FbMfZEz>`_.
 
+.. warning::
+
+   This documentation is obsolete and is being continued in a new web site: [rfswift.io](https://rfswift.io/) ;)
 
 .. toctree::
    :maxdepth: 3
